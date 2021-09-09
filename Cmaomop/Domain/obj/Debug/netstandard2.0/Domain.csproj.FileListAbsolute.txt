@@ -1,0 +1,6 @@
+E:\Documents\Nueva carpeta\productoApp\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+E:\Documents\Nueva carpeta\productoApp\Domain\bin\Debug\netstandard2.0\Domain.dll
+E:\Documents\Nueva carpeta\productoApp\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+E:\Documents\Nueva carpeta\productoApp\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+E:\Documents\Nueva carpeta\productoApp\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+E:\Documents\Nueva carpeta\productoApp\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs

@@ -1,0 +1,5 @@
+E:\Documents\Nueva carpeta\productoApp\Infraestructura\bin\Debug\netstandard2.0\Domain.dll
+E:\Documents\Nueva carpeta\productoApp\Infraestructura\obj\Debug\netstandard2.0\Infraestructura.csprojAssemblyReference.cache
+E:\Documents\Nueva carpeta\productoApp\Infraestructura\obj\Debug\netstandard2.0\Infraestructura.csproj.CoreCompileInputs.cache
+E:\Documents\Nueva carpeta\productoApp\Infraestructura\obj\Debug\netstandard2.0\Infraestructura.AssemblyInfoInputs.cache
+E:\Documents\Nueva carpeta\productoApp\Infraestructura\obj\Debug\netstandard2.0\Infraestructura.AssemblyInfo.cs
