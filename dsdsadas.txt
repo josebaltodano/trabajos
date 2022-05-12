@@ -1,0 +1,46 @@
+dotnet ef dbcontext scaffold "Data Source=JADPA27\SQLSERVER2019;Initial Catalog=DepreciationDB;user=sa;password=123456" Microsoft.EntityFrameworkCore.SqlServer --project DepreciationDBApp.Domain --context-dir DepreciationDBEntities --output-dir Entities --force
+esto va aderntro de la carpeta inicial
+
+create database DepreciationDB
+go
+use DepreciationDB
+go
+
+create table Asset(
+[id] int primary key identity(1,1),
+nombre varchar (50) not null,
+	[description] varchar (200) not null,
+	amount decimal (9,2) not null,
+	amountResidual decimal (9,2) not null,
+    years int not null,
+	code varchar (50) not null,
+   [status] varchar(50) not null,
+   isActive bit
+)
+go
+create table Employee(
+[id] int primary key identity(1,1),
+names varchar (50) not null,
+lastnames varchar (50) not null,
+[address] varchar (200) not null,
+phone varchar (16) not null,
+email varchar (100) not null,
+dni varchar (20) not null,
+[status] varchar (50) not null
+)
+go 
+create table AssetEmployee(
+[id] int primary key identity(1,1),
+asseteid int not null,
+employeeid int not null,
+[Date] date not null,
+IsActive bit not null
+)
+go
+alter table AssetEmployee
+add constraint fk_asset foreign Key (asseteid)
+references Asset(id)
+go
+alter table AssetEmployee
+add constraint fk_employee foreign Key(employeeid)
+references Employee(id)
